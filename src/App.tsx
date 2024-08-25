@@ -1,6 +1,7 @@
 import "./App.css";
-import { Home } from "./app/pages/Home";
+import { CardFlip } from "./app/pages/CardFlip";
+//import { Home } from "./app/pages/Home";
 
-const App = () => <div className="bg-slate-800 w-full h-[100vh]"><Home /></div>
+const App = () => <div className="bg-slate-800 w-full h-full"><CardFlip /></div>
 
 export default App;
